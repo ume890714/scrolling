@@ -1,11 +1,15 @@
 #title{
     background-image: url("https://www.travel.taipei/image/176593/1024x768");
     background-size: cover;
-    background-position: 0% 75%;
+    background-position: center 75%;
+}
+
+#title .container{
+    position: relative;
+    top: 50%;
 }
 
 #title h1{
-    padding-top: 350px;
     font-size: 100px;
     font-weight: 600;
     color: white;
